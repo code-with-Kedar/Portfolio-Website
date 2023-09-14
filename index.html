@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedar Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(9, 39, 39);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(11, 49, 49);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(42, 201, 182);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: white;
+            height: 1.2px;
+            margin: 40px 85px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 145px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 25px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(27, 66, 87);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(42, 201, 182);
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(42, 201, 182);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 1.5px;
+            margin: 55px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 95px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 85px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(11, 49, 49);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 25px 125px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 225px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kedar's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Kedar...</span> and I'm a
+                passionate
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img.png" alt="" width="450" height="350" />
+            </div>
+        </section>
+        <hr />
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Professional Experience and Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="" />
+                    <div class="vertical-text">Web Developer</div>
+                    <div class="vertical-desc">
+                        Strong communication skills demonstrated through effective verbal
+                        and written communication in diverse professional settings.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="" />
+                    <div class="vertical-text">Python</div>
+                    <div class="vertical-desc">
+                        Proficient in Python programming, with experience in developing
+                        versatile applications and solving complex problems.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="communication.png" alt="" />
+                    <div class="vertical-text">Problem Solving</div>
+                    <div class="vertical-desc">
+                        Exceptional problem-solving abilities honed through a structured
+                        approach, critical thinking, and adaptability to resolve intricate
+                        issues across various domains. Proven track record of identifying
+                        root causes, devising innovative solutions, and driving impactful
+                        outcomes.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="communication.png" alt="" />
+                    <div class="vertical-text">Communication Skills</div>
+                    <div class="vertical-desc">
+                        Outstanding communication skills demonstrated through clear and
+                        concise verbal and written interactions, fostering effective
+                        collaboration and understanding in professional settings
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="internship.png" alt="" />
+                    <div class="vertical-text">Cyber Secured India [Intern]</div>
+                    <div class="vertical-desc">
+                        Interned at Cyber Secured India, gaining hands-on experience in
+                        cybersecurity practices, threat analysis, and risk mitigation.
+                        Contributed to enhancing network security measures and developing
+                        incident response protocols
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="internship.png" alt="" />
+                    <div class="vertical-text">Cffeine trip (Cyber Frat)[Intern]</div>
+                    <div class="vertical-desc">
+                        Interned at Cyber Frat's Caffeine Trip, actively participating in
+                        cybersecurity projects, threat assessments, and security awareness
+                        initiatives. Gained practical insights into cyber defense
+                        strategies and contributed to fostering a more secure digital
+                        environment
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Kedar's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright&#169;kedarsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed("#element", {
+            strings: [
+                "Web Developer",
+                "Full Stack Developer",
+                "Video Editor",
+                "Cyber Security Enthusiast.",
+            ],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
